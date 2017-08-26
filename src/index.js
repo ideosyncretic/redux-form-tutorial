@@ -18,7 +18,7 @@ ReactDOM.render(
       <div>
         <Switch>
           <Route path='/posts/new' component={PostsNew} />
-          <Route path='/posts/:id' component={PostsShow} /> {/* we don't put this route on top because the wildcard (colon) will cause /posts/new to match */ }
+          <Route path='/posts/:id/' component={PostsShow} /> {/* we don't put this route on top because the wildcard (colon) will cause /posts/new to match */ }
           <Route path='/' component={PostsIndex} />
         </Switch>
       </div>
